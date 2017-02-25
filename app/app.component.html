@@ -1,0 +1,8 @@
+<StackLayout class="p-20">
+    <Label text="Tap the button" class="h1 text-center"></Label>
+    <Button text="TAP" (tap)="onTap()" class="btn btn-primary btn-active"></Button>
+    <Label [text]="message" class="h2 text-center" textWrap="true"></Label>
+    <Label [text]="longitude" class="h2 text-center" textWrap="true"></Label>
+    <Label [text]="latitude" class="h2 text-center" textWrap="true"></Label>
+    <Button text="Start Services" (tap)="startServices()" class="btn btn-primary btn-active"></Button>
+</StackLayout>

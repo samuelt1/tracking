@@ -1,0 +1,18 @@
+# generated files
+*.map
+*.tgz
+.baseDir.ts
+.sublime-grunt.cache
+tscommand*.tmp.txt
+.tscache
+
+
+*.js
+platforms/
+lib/
+hooks/
+node_modules/
+com/
+android/
+lib/
+
